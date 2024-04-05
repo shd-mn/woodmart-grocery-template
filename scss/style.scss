@@ -956,8 +956,17 @@
                         align-items: center;
                         gap: 2rem;
                         color: white;
+
+                        transition: all 0.2s;
+
                         p {
                             color: #b4b4b4;
+                        }
+                        &:hover {
+                            color: $primary;
+                            p {
+                                color: $primary;
+                            }
                         }
                     }
                 }
@@ -976,7 +985,7 @@
 
                     a {
                         color: #b4b4b4;
-
+                        transition: all 0.2s;
                         &:hover {
                             color: $primary;
                         }

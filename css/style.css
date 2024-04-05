@@ -964,9 +964,16 @@ h6 {
   align-items: center;
   gap: 2rem;
   color: white;
+  transition: all 0.2s;
 }
 .footer .footer-top .footer-content .left .second a p {
   color: #b4b4b4;
+}
+.footer .footer-top .footer-content .left .second a:hover {
+  color: #d12c2c;
+}
+.footer .footer-top .footer-content .left .second a:hover p {
+  color: #d12c2c;
 }
 .footer .footer-top .footer-content .right {
   max-width: 50%;
@@ -981,6 +988,7 @@ h6 {
 }
 .footer .footer-top .footer-content .right div a {
   color: #b4b4b4;
+  transition: all 0.2s;
 }
 .footer .footer-top .footer-content .right div a:hover {
   color: #d12c2c;
